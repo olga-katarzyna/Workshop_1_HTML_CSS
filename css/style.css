@@ -14,6 +14,8 @@
   margin: 0 auto;
 }
 
+/* górny panel z logo i menu */
+
 header {
   height: 80px;
   background-color: #000000;
@@ -22,7 +24,7 @@ header {
 
 .top-panel {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
   margin-top: 20px;
 }
@@ -53,6 +55,8 @@ ul {
   display: inline-block;
 }
 
+/* główna sekekcja */
+
 main {
   height: 500px;
   background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(189,187,189,1) 100%);
@@ -61,14 +65,13 @@ main {
 .arrow {
   font-size: 50px;
   color: #3ADFB9;
-  padding-top: 300px;
-  width: 100px;
+  width: 115px;
 }
 
 .left-arrow {
   float: left;
+  padding-top: 200px;
 }
-
 
 .carousel-element {
   float: left;
@@ -87,21 +90,124 @@ main {
 }
 
 h2 {
+  font-size: 30px;
   text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.main-button {
+  height: 50px;
+  width: 200px;
+  text-transform: uppercase;
+  background-color: #3ADFB9;
+  border-radius: 1em;
+  text-align: center;
+  margin: 20px 115px 0 115px;
+  padding-top: 15px;
 }
 
 .right-arrow {
   float: right;
   text-align: right;
+  padding-top: 100px;
 }
+
+/* sekcja ze zdjęciami produktów */
 
 .products {
   height: 300px;
 }
 
+.product-box {
+  width: 320px;
+  height: 200px;
+  float: left;
+  background-color: #3ADFB9;
+  margin-top: 30px;
+  border: 2px solid #d4d4d4;
+}
+
+.product-box-left {
+  margin-right: 20px;
+  background-image: url('../images/box1_img.jpg');
+}
+
+.product-box-center {
+  background-image: url('../images/box2_img.jpg');
+}
+
+.product-box-right {
+  margin-left: 20px;
+}
+
 .pricelist {
-  height: 800px;
+  height: 740px;
   background-color: #EEEEEE;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 40px 0 5px 0;
+  width: 300px;
+  border-bottom: 8px solid #3ADFB9;
+}
+
+/* boxy z planami i ceną */
+
+.pricelist-box {
+  height: 500px;
+  width: 320px;
+  border: 2px solid #d4d4d4;
+  margin-top: 100px;
+  padding-top: 30px;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: normal;
+  color: #3ADFB9;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.pricelist-box-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.pricelist-box-center {
+  float: left;
+}
+
+.pricelist-box-right {
+  float: right;
+}
+
+/* koło z ceną */
+
+.plan-price {
+  height: 150px;
+  width: 150px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  color: #bababa;
+  border: 2px solid #d4d4d4;
+  border-radius: 50%;
+  margin: 25px 83px;
+  padding-top: 10px;
+}
+
+.upper-index {
+  vertical-align: super;
+  font-size: 15px;
+}
+
+.price-description {
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 .contact {
