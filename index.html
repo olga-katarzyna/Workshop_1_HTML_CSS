@@ -10,10 +10,17 @@
 
 <header class='meta-container'>
   <div class='container'>
-    <h1 class='top-panel logo'>sit <span class='logo-distinction'>on </span>chair</h1>
+    <h1 class='top-panel logo'>sit <span class='main-logo-distinction'>on </span>chair</h1>
     <nav>
       <ul class='top-panel top-menu'>
-        <li class='top-menu-element'><a href='about_blank' target='_blank'>o firmie</a></li>
+        <li class='top-menu-element'>
+          <a href='about_blank' target='_blank'>o firmie</a>
+          <ul class='sub-menu'>
+            <li class='sub-menu-element'><a href='about_blank' target='_blank'>Aktualności</a></li>
+            <li class='sub-menu-element'><a href='about_blank' target='_blank'>Nasz team</a></li>
+            <li class='sub-menu-element'><a href='about_blank' target='_blank'>Historia</a></li>
+          </ul>
+        </li>
         <li class='top-menu-element'><a href='about_blank' target='_blank'>galeria</a></li>
         <li class='top-menu-element'><a href='about_blank' target='_blank'>kontakt</a></li>
       </ul>
@@ -23,12 +30,12 @@
 <main class='meta-container'>
   <div class='container'>
     <div class='arrow left-arrow'>
-      <
+      &lt;
     </div>
     <div class='carousel-element'>
       <img class='main-photo' src='images/black_chair.png'>
       <article class='main-description'>
-        <h2>sit <span class='logo-distinction'>on</span> our <span class='logo-distinction'>chair</span></h2>
+        <h2>sit <span class='main-logo-distinction'>on</span> our <span class='main-logo-distinction'>chair</span></h2>
         <p class='main-text'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         </p>
@@ -37,7 +44,7 @@
         </div>
       </article>
       <div class='arrow right-arrow'>
-        >
+        &gt;
       </div>
   </div>
 </main>
@@ -46,14 +53,32 @@
   <ul>
     <li class='product-box product-box-left'>
       <div class='inflowing-box'>
+        <p class='product-title'>
+          Chair <span class='uppercase'>clair</span>
+        </p>
+        <p class='inflowing-box-text'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
       </div>
     </li>
     <li class='product-box product-box-center'>
       <div class='inflowing-box'>
+        <p class='product-title'>
+          Chair <span class='uppercase'>margarita</span>
+        </p>
+        <p class='inflowing-box-text'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
       </div>
     </li>
     <li class='product-box product-box-right'>
       <div class='inflowing-box'>
+        <p class='product-title'>
+          Finds all inputs
+        </p>
+        <p class='inflowing-box-text'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
       </div>
     </li>
   </ul>
@@ -69,12 +94,33 @@
           85<span class='upper-index'>99</span><br>
           <span class='price-description'>pln/msc</span>
         </div>
+        <div class='plan-description'>
+          Zakup towaru + dowóz
+        </div>
+        <div class='plan-description'>
+          Serwis
+        </div>
+        <div class='pricelist-box-button'>
+          dołącz
+        </div>
       </li>
       <li class='pricelist-box pricelist-box-center'>
         <h4>standard plan</h4>
         <div class='plan-price'>
           95<span class='upper-index'>99</span><br>
           <span class='price-description'>pln/msc</span>
+        </div>
+        <div class='plan-description'>
+          Zakup towaru + dowóz
+        </div>
+        <div class='plan-description'>
+          Serwis
+        </div>
+        <div class='plan-description'>
+          Gwarancja 5 lat
+        </div>
+        <div class='pricelist-box-button'>
+          dołącz
         </div>
       </li>
       <li class='pricelist-box pricelist-box-right'>
@@ -83,6 +129,21 @@
           211<span class='upper-index'>00</span><br>
           <span class='price-description'>pln/msc</span>
         </div>
+        <div class='plan-description'>
+          Zakup towaru + dowóz
+        </div>
+        <div class='plan-description'>
+          Serwis
+        </div>
+        <div class='plan-description'>
+          Gwarancja 6 lat
+        </div>
+        <div class='plan-description'>
+          Porady projektanta
+        </div>
+        <div class='pricelist-box-button'>
+          dołącz
+        </div>
       </li>
     </ul>
   </div>
@@ -90,11 +151,42 @@
 
 <section class='contact'>
   <div class='container'>
+    <h3>kontakt</h3>
+    <form>
+      <input class="field" type="text" name="imie" id="imie" placeholder="Imię">
+      <input class="field" type="text" name="email" id="email" placeholder="email">
+      <input class="field" type="text" name="wiadomosc" id="wiadomosc" placeholder="Wiadomość">
+    </form>
+    <div class='checkbox'>
+      <label>
+        <input class="check" type="checkbox" />
+          Zgadzam się na przetwarzanie<br>danych osobowych
+      </label>
+    </div>
+    <div class='contact-button'>
+      wyślij
+    </div>
   </div>
 </section>
 
 <footer>
   <div class='container'>
+    <div class='copyright'>
+      Copyright 2014 | All Rights Reserved. - Sit On Chair
+    </div>
+    <div class='footer-logo'>
+      sit <span class='footer-logo-distinction'>on</span> chair
+    </div>
+    <div class='social'>
+      <div class='logo1'>
+      </div>
+      <div class='logo2'>
+      </div>
+      <div class='logo3'>
+      </div>
+      <div class='logo4'>
+      </div>
+    </div>
   </div>
 </footer>
 
